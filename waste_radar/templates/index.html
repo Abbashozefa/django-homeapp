@@ -39,50 +39,31 @@
       </div>
 
     </nav>
-    <div class="heading">
-      <img >Waste Radar<i class="fa-solid fa-recycle" style="size:20%;"></i></img>
-
-    </div>
-
-    <div class="tagline">
-
-
-
-    <h4> We are here to serve you.</h4>
-    <h3>Let's bring a change together</h3>
-    </div>
-    </div>
-
-
-</div>
-
-    <div class="banner">
-      <div class="slider">
-        <img src="images/image1.jpeg" alt="image1" id="slideImg">
-          </div>
-        <div class ="loginbox">
-
-          <img src="icon.jpeg" class="icon" />
-          <img >Waste Radar<i class="fa-solid fa-recycle"></i></img>
-
-          <h3>LOGIN HERE</h3>
-          
-        </div>
-
-
-
-      </div>
-
-
-
     
 
 
-
-
-
-<script src="response.js" charset="utf-8"></script>
-
   </body>
+  <script src="response.js" charset="utf-8"></script>
+  <script>
+    var slideImg=document.getElementById("slideImg");
+    var images=new Array(
+      "images/image1.jpeg",
+      "images/images2.jpeg",
+      "images/images3.jpeg",
+      "images/images4.jpeg",
+
+    );
+    var len=images.length;
+    var i=0;
+    function slider(){
+      if(i>len-1){
+        i=0;
+      }
+      slideImg.src=images[i];
+      i++;
+      setTimeout('slider()',5000);
+    }
+
+  </script>
 </html>
 

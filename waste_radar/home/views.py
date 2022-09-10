@@ -13,7 +13,7 @@ import requests
 
 # Create your views here.
 def news(request):
-      url = 'https://newsapi.org/v2/everything?q=Google&sortBy=popularity&apiKey=e21c28ebd4ff471e970182ebc9da81fd'
+      url = 'https://newsapi.org/v2/everything?q=Waste+Pollution&sortBy=popularity&apiKey=e21c28ebd4ff471e970182ebc9da81fd'
       latest_news = requests.get(url).json()
       a = latest_news['articles']
       desc =[]
