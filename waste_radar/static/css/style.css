@@ -1,0 +1,88 @@
+h1{
+  padding-top: 10px;
+  text-align: center;
+  color:white;
+  font-variant:small-caps;
+  line-height: 0.7em;
+}
+
+
+.navbar{
+  background-color: white;
+}
+
+h3{
+   font-style: italic;
+
+}
+.cards{
+  float:left;
+  background-color: white;
+  border-radius: 15%;
+  width:30%;
+  padding-top: 8%;
+}
+.icon{
+  height: 50%;
+  width:50%;
+  border-radius: 50%;
+
+}
+.heading{
+  font-size: 40px;
+  text-align: center;
+}
+.loginbox{
+  width:30%;
+  height: 600px;
+  background:rgba(76,175,80,0.4);
+  color:#fff;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 35%;
+  transition: 0.5s;
+
+
+
+  position:absolute;
+
+  box-sizing: border-box;
+  float: none;
+
+  text-align: center;
+  border-radius: 5%;
+
+}
+.loginbox:hover{
+   transform:scale(1.2);
+
+}
+
+
+
+.tagline{
+  text-align:center;
+  font-family: cursive;
+
+}
+.image img{
+  border-radius: 20px;
+}
+
+.banner{
+  width:100%;
+  height:100vh;
+  position:relative;
+  overflow: hidden;
+}
+.slider{
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+#slideImg{
+  width: 100%;
+  height: 100%;
+}
+

@@ -52,4 +52,6 @@ def maps(request):
       
       return render(request,'Report\index3.html')
 
-           
+def aboutus(request):
+      
+      return render(request,'About\index5.html')          
