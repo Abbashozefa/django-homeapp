@@ -24,7 +24,10 @@
           <a  class="nav-link" href="http://127.0.0.1:8000/home/homepage/info">Info </a>
         </li>
         <li class="nav-item">
-          <a  class="nav-link" href="http://127.0.0.1:8000/home/homepage/showform">Query</a>
+          <a  class="nav-link" href="http://127.0.0.1:8000/home/homepage/showform">Queries</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="http://127.0.0.1:8000/home/homepage/recycle">Recycle</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://127.0.0.1:8000/home/homepage/maps">Maps</a>
@@ -55,43 +58,43 @@
 
 
 </div>
-<!creating background slider>
-    <div class="banner">
-      <div class="slider">
-        <img src="{% static 'images\image1.jpeg' %}" alt="image1" id="slideImg">
-          </div>
-        <div class ="loginbox">
-
-          <img src="icon.jpeg" class="icon" />
-          <img >Waste Radar<i class="fa-solid fa-recycle"></i></img>
-
-          <h3>LOGIN HERE</h3>
-          <form class="" action="Site/site.html" method="post">
-            <p>  Username </p>
-            <input type="text" name="" placeholder="Enter Username" id="name">
-            <p>  Email </p>
-            <input type="email" name="" placeholder="Enter email" id="emails">
-
-            <p>  Password </p>
-            <input type="password" name="" placeholder="Enter Password">
-            <button>login</button>
-            <br >
-            <button><a href="">forgot password</a></button>
-            <br>
-            <button><a href="">Create account</a></button>
-          </form>
-        </div>
-
-
-
-      </div>
-
-    
-
-
-
-
-  </body>
+<div class="cards">
+         <div class="container">
+           <div  class="input">Name: <input id="name"type="text" placeholder="Name"></div>
+           <br>
+           <div  class="input">Area: <input id="area"type="text" placeholder="Area"></div>
+           <br>
+           <div  class="input">Phone No: <input id="phone"type="number" placeholder="Number"></div>
+           <br>
+           <div class="input">Quantity:<input id="quantity"type="number"placeholder="no of bags"></div>
+           <br>
+           <button id="entry" type="button" name="button">ADD</button>
+         </div>
+       </div>
+     
+         <table id="display" class="content-table">
+           <thead>
+     
+     
+           <tr>
+             <th>Name</th>
+             <th>Area</th>
+             <th>Phone No</th>
+             <th>Quantity</th>
+     
+           </tr>
+           </thead>
+           <td>
+           <tr>
+     
+           </tr>
+           </td>
+         </table>
+     <script src="{% static 'js\site.js' %}">
+     
+     </script>
+      
+</body>
   <script charset="utf-8">alert("Hello,Welcome to Waste Radar");</script>
   <script>
     var slideImg=document.getElementById("slideImg");

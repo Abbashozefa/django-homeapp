@@ -32,31 +32,36 @@ h3{
   font-size: 40px;
   text-align: center;
 }
-.loginbox{
-  width:30%;
-  height: 600px;
-  background:rgba(76,175,80,0.4);
-  color:#fff;
-  align-items: center;
-  margin-top: 5%;
+#entry {
+  width: 30%;
+  align-content: center;
+}
+.content-table{
+
+  border-collapse:collapse;
   margin-left: 35%;
-  transition: 0.5s;
-
-
-
-  position:absolute;
-
-  box-sizing: border-box;
-  float: none;
-
-  text-align: center;
-  border-radius: 5%;
+  font-size: 0,9em;
+  min-width: 400px;
+}
+.content-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table th,td{
+  padding: 12px 15px;
+  align-items: center;
+}
+.content-table tbody tr{
+  border-bottom:1px solid #dddddd;
 
 }
-.loginbox:hover{
-   transform:scale(1.2);
-
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
 }
+
+
 
 
 
@@ -85,4 +90,10 @@ h3{
   width: 100%;
   height: 100%;
 }
+.container{
+  margin-left: 35%;
+  padding: 10px;
+}
+
+
 

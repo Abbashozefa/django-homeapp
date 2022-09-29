@@ -17,6 +17,7 @@ body{
   .heading {
     text-align: center;
     font-size: 2em;
+    font-family: sans-serif;
     color: #2d3436;
     margin: 20px 0 30px;
   }
@@ -31,6 +32,7 @@ body{
     box-shadow: 0 2px 5px #ccc;
     text-align: left;
   }
+ 
   
   .top {
     border-radius: 25px 25px 0 0;

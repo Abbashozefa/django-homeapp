@@ -10,5 +10,6 @@ urlpatterns = [
       path('homepage/showform', views.showform,name='showform'),
       path('homepage/news', views.news),
       path('homepage/aboutus', views.aboutus),
+      path('homepage/recycle', views.recycle),
          
 ]
